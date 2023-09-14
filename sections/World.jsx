@@ -37,14 +37,20 @@ const World = () => (
 					alt='map'
 					className='w-full h-full object-cover'
 				/>
-				<div className='absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+				<div className='absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] shadow1'>
 					<img src='/people-01.png' alt='people' />
 				</div>
-				<div className='absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+				<div className='absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] shadow2'>
 					<img src='/people-02.png' alt='people' />
 				</div>
-				<div className='absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+				<div className='absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] shadow3'>
 					<img src='/people-03.png' alt='people' />
+				</div>
+				<div className='absolute bottom-10 left-20 p-[6px] rounded-[26px] bg-[#5d6680] shadow4'>
+					<img src='/people-04.png' alt='people' />
+				</div>
+				<div className='absolute top-20 right-[200px] p-[6px] rounded-[26px] bg-[#5d6680] shadow5'>
+					<img src='/people-05.png' alt='people' />
 				</div>
 			</motion.div>
 		</motion.div>
